@@ -1,0 +1,130 @@
+<template>
+<div class="body0">
+	
+  <nav>
+			<div class="profile">
+				<img src="https://i.ibb.co/Wf7x5qk/profile.jpg" alt="profile photo" />
+				<h1>Ben Yogurt</h1>
+			</div>
+			<ul>
+				<li>Facebook</li>
+				<li>Mes projets</li>
+				<li>Curriculum Vitae</li>
+				<li>Mon Blog</li>
+			</ul>
+		</nav>
+
+		<section class="page-content">
+			<header>
+				<h1>Hey, je suis un ingénieur en intelligence artificielle.</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+					debitis, facilis aliquam voluptates fugiat ipsum odio, nihil
+					architecto fuga laboriosam tempore necessitatibus quas? Incidunt nobis
+					ducimus vel, delectus sit quod Lorem ipsum dolor sit amet consectetur
+					adipisicing elit.
+				</p>
+				<button>Dites Hey</button>
+			</header>
+
+			<section class="presentation-image">
+				<img src="https://i.ibb.co/RbGysWw/main-image.jpg" alt="AI image" />
+			</section>
+
+			<section class="projects-section">
+				<h1>Projets réalisés</h1>
+				<div class="projects">
+					<div class="project">
+						<h4>Un robot créateur de cookies</h4>
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Molestias sunt, atque aliquid pariatur.
+						</p>
+						<p class="dates">Dates 2015 - 2016</p>
+					</div>
+					<div class="project">
+						<h4>Prévision du caractère humain</h4>
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Molestias sunt, atque aliquid pariatur.
+						</p>
+						<p class="dates">Dates 2016 - 2017</p>
+					</div>
+					<div class="project">
+						<h4>Création d'un assistant vocal</h4>
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Molestias sunt, atque aliquid pariatur.
+						</p>
+						<p class="dates">Dates 2017 - 2018</p>
+					</div>
+					<div class="project">
+						<h4>Reconnaissance de formes</h4>
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Molestias sunt, atque aliquid pariatur.
+						</p>
+						<p class="dates">Dates 2019 - 2020</p>
+					</div>
+					<div class="project">
+						<h4>Algorithme de reconnaissance d'objet</h4>
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Molestias sunt, atque aliquid pariatur.
+						</p>
+						<p class="dates">Dates 2020 - 2021</p>
+					</div>
+				</div>
+			</section>
+		</section>
+
+		<footer>
+			<div class="colonne">
+				<h3>Mes services</h3>
+				<p>Développement de projet IA</p>
+				<p>Prestation en IA</p>
+				<p>Investissement en entreprises IA</p>
+			</div>
+			<div class="colonne">
+				<h3>Mon entreprise</h3>
+				<p>Équipe constituée de 20k ingénieurs</p>
+				<p>Une communauté active mondiale</p>
+				<p>Une entreprise à but lucratif</p>
+			</div>
+			<div class="colonne">
+				<h3>Mes adresses</h3>
+				<p>artificial@gmail.com</p>
+				<p>intelligence@gmail.com</p>
+				<p>google-science@google.com</p>
+			</div>
+		</footer>
+
+</div>
+</template>
+
+<style scoped src="./style.css"></style>
+
+<script>
+// import './js/script.js';
+// import './js/style-switcher.js';
+// import { Link } from "@inertiajs/inertia-vue3";
+export default {
+    components: {
+        // Link,        
+	},
+	data () {
+        return {
+            menuOpen: false
+        }
+    },
+    props: ["about_us"],
+    methods: {
+        toggleMenu() {
+            this.menuOpen = !this.menuOpen
+        }
+    },
+    mounted () {
+        
+    }
+};
+</script>
